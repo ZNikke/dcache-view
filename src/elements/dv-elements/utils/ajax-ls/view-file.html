@@ -344,7 +344,7 @@
                 this._updateContentElevationAttribute();
             }
             _fileNameCompare(a, b) {
-                b.fileName.localeCompare(a.fileName);
+                return a.fileName.localeCompare(b.fileName);
             }
 
             handleError(error)
